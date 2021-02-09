@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Amita:100,200,300,400,500,600,700|Alfa+Slab+One:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amita:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+/*----------Generic---------*/
+
+body{
+    overflow-x:hidden;
+    margin:0px;}
+
+.container-fluid{
+    margin:0;
+    padding:0px;}
+
+/*--------------------Header----------------*/
+
+.navbar{
+    vertical-align:top;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    background-color:#ff61a5;
+    width:100%;
+    height:180px;
+    border: 3px solid purple;}
+
+@media(max-width:670px){
+    .navbar{height:220px;}
+}
+
+
+.main-heading{
+    font-family:'Alice';
+    font-size:60px;
+    padding-top:5px;
+    color:purple;
+    display:block;
+    text-align: center;
+}
+
+
+
+.list-inline{
+    padding:0px;}
+
+.list-inline-item{
+    margin:0;
+}
+
+.services{
+    padding-right:5px;}
+
+#menulink1{
+    padding-left:30px;
+    margin-left:20px;
+}
+
+.menulink a{
+    color:#fafafa;
+    text-shadow:10px 10px 10px purple;
+    font-family:'Roboto';
+    text-align: center;
+    font-size:25px;}
+
+.menulink a:hover{
+    color:purple;
+    text-decoration:none;}
+
+
+#nav li{
+    padding:10px;
+    margin:0;}
+
+#nav{
+    width:100%;
+    padding-left:8px;
+    padding-right:5px;
+    margin-top:-5px;}
+
+#navbarSupportedContent1{
+    background-color:#ff61a5;
+    width:120px;
+    border: 3px solid purple;
+}
+
+#navbarSupportedContent1 li{
+    padding-left:3px;
+}
+
+.navbar-toggler{
+    background-color:purple;
+
+}
+.navbar-toggler i{
+    color:white;
+}
+
+@media screen and (min-width:670px){
+    .toggle-container{display:none;}
+}
+
+@media screen and (max-width:670px){
+    .largescreen-nav{display:none;}
+}
+/*--------------------Main Image----------------*/
+
+#logo-container{
+    padding-top:140px;
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    margin-right:-20px;}
+
+@media(max-width:576px){
+    #logo-container{padding-top:175px}}
+
+
+
+   #logo {
+    background:url no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:400px;
+  animation-name: main-zoom;
+  animation-duration:3s;
+  }
+
+@keyframes main-zoom{
+    from{transform:scale(0.8);
+    border-top:3px solid rgb(241, 121, 9);}
+    to{transform:scale(1);
+    border-top:1px solid rgb(241, 121, 9);}}
+
+@media (min-width:1100px){
+    #logo{
+        background-size:cover;}}
+
+.bubble{
+    background-color:rgba(241, 9, 183, 0.658);
+    width:300px;
+    height:180px;
+    border-radius:50%;
+    position:absolute;
+    right:12%;
+    bottom:15%;
+    z-index: 2;}
+
+@media (max-width:600px){
+    .bubble{
+        bottom:17%;
+        right:25%;
+        width:50%;
+        height:30%;}}
+
+.bubble p{
+    font-family:'Amita', cursive;
+    font-size:28px;
+    color:#fafafa;
+    padding-top:20px;
+    text-align:center;
+    vertical-align:middle;}
+
+@media (max-width:600px){
+    .bubble p{
+        font-size:24px;}}
+
+/*--------------------Section Main Page----------------*/
+
+.main-section{
+    margin:0px;}
+
+.testimonials-div{text-align: center;
+    padding:10px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:10px;}
+
+.testimonials{
+    font-family:'Raleway', sans-serif;
+    background-color:rgba(241, 121, 9, 0.8);
+    width:80%;
+    border-radius:50%;
+    padding-top:5px;
+    margin-top:10px;
+    text-align:center;
+    margin-bottom:10px;
+    margin:auto;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:15px;
+    color:#fafafa;}
+
+.testimonials h4{
+    font-family:'Raleway', sans-serif;
+    font-size:20px;
+    padding-top:10px;
+    text-transform:uppercase;
+    color:#fafafa;}
+
+.outer-border{
+    border:dotted 4px rgba(241, 121, 9, 0.8);
+    border-radius:50%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:0px;
+    padding-right:0px;}
+
+.outer-border-about-us{border:dotted 4px rgba(241, 121, 9, 0.8);
+    border-radius:45%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;}
+
+.about-me-text{
+    margin:15px;
+    padding:35px;}
+
+.uppercase{
+    text-transform:uppercase;}
+
+.about-us{
+    text-align: center;
+    padding:10px;
+    margin:0 auto;
+    font-family:'Raleway', sans-serif;
+    font-weight:500;}
+
+.about-me-heading{
+       text-align:center;
+    margin-bottom:15px;
+    font-family:'Alice';
+    color:purple;
+    font-size:35px;
+    text-shadow: 10px 10px 16px grey;
+    margin-top:15px;}
+
+.testimonials-heading{
+     text-align:center;
+    text-transform:uppercase;
+    margin-bottom:15px;
+    font-family:'Alfa Slab One';
+    color:rgb(241, 121, 9);
+    font-size:35px;
+    text-shadow: 10px 10px 16px grey;
+    margin-top:15px;} 
+
+
+/*--------------------Services Page----------------*/
+section{
+    padding-top:5px;}
+
+.services{
+        padding-top:170px;
+        width:100%;
+        padding-bottom:20px;}
+
+@media(max-width:576px){
+    .services{padding-top:185px}}
+
+.heading-services{
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom:15px;
+    font-family:'Alfa Slab One';
+    color:rgb(241, 121, 9);
+    text-shadow: 10px 10px 16px grey;
+    margin-top:0;
+    font-size:40px;
+    padding-left:15px;
+    margin-left:15px;}
+
+.services-box{
+    text-align:center;
+    padding:0px;
+    box-shadow: 10px 10px  rgb(241, 121, 9,0.7);
+    margin-bottom:20px;
+    margin-left:30px;
+    margin-right:25px;
+    margin-top:20px;
+    background-color:#777a7d;
+    height:90%}
+
+.card-body-box{
+    padding:5px;}
+
+.services-heading{
+    width:100%;
+    padding-top:10px;
+    margin:0;
+    text-transform:uppercase;
+    color:#fafafa;
+    text-align: center;
+    text-shadow: 10px 10px 16px #ef7108bf;}
+
+.services-info{
+    width:80%;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:inline-block;
+    padding-left:5px;
+    padding-right:5px;
+    background-color:#777a7dd7;
+    color:#fafafa;
+    font-family:'Raleway', sans-serif;}
+
+.prices-button{text-transform:uppercase;
+    background-color:rgb(241, 121, 9);
+    color:#585655;
+    font-weight:700;
+    border:rgb(241, 121, 9);
+    margin-top:5px;
+    margin-bottom:5px;}
+
+.prices-button:hover{
+    background-color:#585655;
+    color:rgb(241, 121, 9);}
+
+.modal-header h5{
+    width:100%;
+    margin:auto;
+    text-transform:uppercase;
+    color:#585655;}
+
+.modal-header{
+    border-bottom:solid 2px rgb(241, 121, 9);}
+
+.modal-footer{
+    border-top:solid 2px rgb(241, 121, 9);}
+
+.close-btn:hover{background-color:rgb(241, 121, 9);
+    color:#585655;}
+    
+/*--------------------Contact Page----------------*/
+.contact-us-section{
+    min-height:900px;
+    padding-top:180px;}
+
+@media(max-width:576px){
+    .contact-us-section{padding-top:190px;
+                        min-height:600px;}}
+
+
+.contact-heading {
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:15px;
+    font-family:'Alice';
+    color:purple;
+    font-size:35px;
+    }
+
+.center-form{
+    padding-top:25px;
+    margin:0 auto;
+    max-width:100%;
+    padding-bottom:25px;}
+
+@media(min-width:992px){
+    .center-form{
+    padding-top:30px;
+    min-height:240px;
+    margin:0px;
+    max-width:100%;}}
+
+.input-box{
+    margin-top:5px;}
+
+.button{
+    text-transform:uppercase;
+    background-color:purple;
+    color:white;
+    font-weight:700;
+    border:pink;}
+
+.submit-button{
+    margin-top:20px;}
+
+.button:hover{
+    background-color:#585655;
+    color:pink;}
+
+.contact-info{
+    height:120%;
+    margin:0px;}
+
+
+
+
+
+
+/*--------------------Footer----------------*/
+
+footer{
+    background-color: purple;
+    color:#fafafa;
+    min-height:120px;
+    padding-top:15px;
+    width:100%;
+    text-align:center;
+    font-family:'Raleway', sans-serif;}
+
+#contact-footer{
+    position: absolute;
+}
+
+footer h5{
+ color:#fafafa;
+ text-decoration: underline dotted;}
+
+.covid a{
+    color:#fafafa;
+    font-size:15px;
+    padding:10px;}
+
+.covid-risk i{
+    color:pink;}
+
+.covid-risk i:hover{color:#fafafa;}
+
+.covid-risk:hover{color:#f58f3bbf;
+        text-shadow: 5px 5px 10px #fafafa;
+        text-decoration:none;}
+
+.contact-us{
+    padding-top:5px;}
+
+.contact-us i{
+   color:pink; 
+   font-size:20px;}
