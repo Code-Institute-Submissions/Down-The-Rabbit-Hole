@@ -10,8 +10,14 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <style type="text/css">
         #map {
-            min-height: 275px;
+            min-height: 330px;
         }</style>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_vanqZMkpPOADQP2iEpqKS");
+        })();
+    </script>
     <title>Contact Me</title>
 </head>
 <body>
@@ -69,7 +75,7 @@
 		<div class="row bg-color-contact">
 			<!--Section Heading-->
 		
-						<div class="col-12 col-md-6 inline-block">
+						<div class="col-10 col-offset-1 col-md-offset-0 col-md-6 inline-block">
                             <h3 class="contact-heading uppercase text-center">Want a personalised piece of art?</h3>
 							<form>
 								<div class="col input-box">
@@ -92,7 +98,7 @@
 							</form>
 							
 						</div>
-						<div class="map col-12 col-md-5 inline-block">
+						<div class="map col-10 col-md-5 inline-block">
                             <h2>Visit my Studio</h2>
                             <div id="map">
 
@@ -134,7 +140,8 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+    </footer>
+     <script src="assets/js/sendEmail.js"></script>
       <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUAFYHDp1-gHZaCgXKJRhkGutt_PosGzs&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>
