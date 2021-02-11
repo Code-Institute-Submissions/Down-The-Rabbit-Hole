@@ -1,20 +1,33 @@
-const baseURL = "https://openapi.etsy.com/v2/listings/active?api_key=uf11esagqu3i9npmikuc0oab";
 
-var xhr = new XMLHttpRequest();
-var data;
+function fetchEtsyInformation(){
+$.when(
+        $.getJSON(`https://openapi.etsy.com/v2/shops/EmmasRabbitHole/listings/active.js?api_key=uf11esagqu3i9npmikuc0oab`),
+       
+    ).then(
+        function(firstResponse, secondResponse) {
+            var profile = firstResponse[0];
+            var listings = secondResponse[0];
+            $("#profile").html(findUserProfile(profile));
+            $("#listing").html(findAllFeaturedListings(listings));
+        },)}
 
-xhr.open("GET", baseURL);
-xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
-xhr.send();
+$(document).ready(fetchEtsyInformation);
 
-function setData(jsonData) {
-    data = jsonData;
-}
 
-xhr.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        setData(JSON.parse(this.responseText));
-    };
-}
 
-console.log(data);
+
+function populateSection(shopSectionID) {
+    $.ajax({
+        url:"https://openapi.etsy.com/v2/shops/EmmasRabbitHole/listings/active.js?api_key=uf11esagqu3i9npmikuc0oab",
+        dataType:'jsonp',
+        success:function(response){
+            for(i=0; i<response.results.length; i++){
+                if(response.results[i].shop_section_id == shopsectionID){
+                    $("#shop").append('<div style="display: inline-block"><a target="_blank" href= "resp.results[i].url"> + <img src="'+ resp.results[i].MainImage.url_170x135 + '"></img></a></div>');
+                }
+            }
+        }
+    });
+};
+
+$(document).ready(populateSection);
