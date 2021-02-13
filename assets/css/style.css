@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Amita:100,200,300,400,500,600,700|Alfa+Slab+One:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amita:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,300;1,400&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
 
 /*----------Generic---------*/
 
@@ -30,9 +32,9 @@ body{
 
 
 .main-heading{
-    font-family:'Alice';
-    font-size:60px;
-    padding-top:5px;
+    font-family:'Calligraffitti';
+    font-size:70px;
+    padding-top:10px;
     color:purple;
     display:block;
     text-align: center;
@@ -58,9 +60,9 @@ body{
 .menulink a{
     color:#fafafa;
     text-shadow:10px 10px 10px purple;
-    font-family:'Roboto';
+    font-family:'Calligraffitti';
     text-align: center;
-    font-size:25px;}
+    font-size:30px;}
 
 .menulink a:hover{
     color:purple;
@@ -214,26 +216,46 @@ body{
 .bubble-container{
     margin-top:40px;
     margin-bottom:20px;
-    margin-left:30px;
+    margin-left:50px;
 }
 
 .bubbles{
-    height:100px;
+    padding-bottom:10px;
+    width:85px;
     margin:10px;
     background-color:pink;
+}
+
+.bubbles h3{
+    text-align:center;
+    font-family:'Courgette';
+    color:purple;
+    padding-top:5px;
+}
+.acrylic_img img{
+    display:block;
+    height:70%;
+    overflow:hidden;
+    object-fit:contain;
+    width:60%;
+    margin:auto;
+    border:solid 1px purple;
 }
 
 
 
 .outer-border-about-me{
-    height:50%;
-    background-color:rgba(241, 9, 183, 0.7);
+    margin-top:40px;
+    height:70%;
+    background-color:pink;
     padding-top:15px;
     padding-bottom:15px;
     padding-left:0px;
     padding-right:0px;}
 
-
+.about-me{
+    margin-left:40px;
+}
 
 .about-me-text{
     margin:15px;
@@ -242,31 +264,16 @@ body{
 .uppercase{
     text-transform:uppercase;}
 
-.about-us{
-    text-align: center;
-    padding:10px;
-    margin:0 auto;
-    font-family:'Raleway', sans-serif;
-    font-weight:500;}
 
 .about-me-heading{
        text-align:center;
     margin-bottom:15px;
-    font-family:'Alice';
+    font-family:'Courgette';
     color:purple;
     font-size:35px;
     text-shadow: 10px 10px 16px grey;
     margin-top:15px;}
 
-.testimonials-heading{
-     text-align:center;
-    text-transform:uppercase;
-    margin-bottom:15px;
-    font-family:'Alfa Slab One';
-    color:rgb(241, 121, 9);
-    font-size:35px;
-    text-shadow: 10px 10px 16px grey;
-    margin-top:15px;} 
 
 
 /*--------------------My Artwork Page----------------*/
@@ -289,7 +296,8 @@ body{
 }
 .artwork-heading{
     text-align:center;
-    font-family:'Alice';
+    font-family:'Courgette';
+    color:purple;
 }
 
 .artwork-display{
@@ -312,11 +320,13 @@ body{
     text-align:center;
     margin-top:20px;
     margin-bottom:15px;
-    font-family:'Alice';
+    font-family:'Courgette';
     color:purple;
     font-size:35px;
     }
-
+.form-container{
+    margin-left:30px;
+}
 .center-form{
     padding-top:25px;
     margin:0 auto;
@@ -352,12 +362,20 @@ body{
     margin:0px;}
 
 .map{
+    margin-left:20px;
     padding-top:20px;
     padding-left:30px;
 }
 
+.address{
+    margin-top:20px;
+    text-align:center;
+    font-family:'Courgette';
+
+}
+
 .map h2{
-    font-family:'Alice';
+    font-family:'Courgette';
     text-align:center;
     color:purple;
     font-size:35px;
@@ -367,6 +385,28 @@ body{
     border:solid 2px purple;
 }
 
+.phone-me{
+    margin-top:20px;
+    text-align:center;
+    font-family:'Courgette';
+    font-size:30px;
+    color:pink;
+    background-color:purple;
+    padding:10px;
+    margin-bottom:15px;
+    
+}
+
+.phone-me-inner{
+    border:solid 3px pink;
+    padding:10px;
+}
+
+.phone-me i{
+    color:pink;
+    font-size:30px;
+    padding:10px;
+}
 
 
 
@@ -387,9 +427,14 @@ footer{
     position: absolute;
 }
 
-footer h5{
- color:#fafafa;
- text-decoration: underline dotted;}
+.footer-contact-me{
+    font-family:'Calligraffitti';
+    font-size:25px;
+}
+
+.footer-contact-me i{
+    color:#fafafa;
+}
 
 .covid a{
     color:#fafafa;

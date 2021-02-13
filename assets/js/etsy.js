@@ -1,5 +1,5 @@
 
-function fetchEtsyInformation(){
+/*function fetchEtsyInformation(){
 $.when(
         $.getJSON(`https://openapi.etsy.com/v2/shops/EmmasRabbitHole/listings/active.js?api_key=uf11esagqu3i9npmikuc0oab`),
        
@@ -30,4 +30,26 @@ function populateSection(shopSectionID) {
     });
 };
 
-$(document).ready(populateSection);
+$(document).ready(populateSection);*/
+
+function findAllShopListingsActive(listings){
+    return `
+    <h2>${listings.shop_id}</h2>
+    <div>Listings: ${listings.page}</div>
+    `
+}
+
+function fetchEtsyInformation(event){
+    $.when(
+        $.getJSON(`https://openapi.etsy.com/v2/users/ACraftyCarrot?api_key=uf11esagqu3i9npmikuc0oab`)
+    ).then(
+        function(response){
+            var listingsData = response;
+            $("#listings").html(findAllShopListingsActive(listingsData));
+        }
+    );
+}
+
+$(document).ready(function(){
+    fetchEtsyInformation();
+});
