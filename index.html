@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
@@ -18,7 +18,8 @@
 </head>
 <body>
 	<header>
-	
+        <div id="navbar-container" class="row">
+            <div class="col-12">
 			<nav class="navbar navbar-light fixed-top" id="navbar">
 				<!--Main Heading/Logo-->
 				<div class="col-12">
@@ -63,16 +64,18 @@
 						</li>
                     </ul>
                     </div>
-			</nav>
+            </nav>
+        </div>
+    </div>
 		
 	</header>
 	<!--Image Section-->
 	<section class="main-image no-gutters">
 		<!--Hero Image-->
 		<div class="row container-fluid" id="img-container">
-            <div class="col-12 col-md-4 " id="image1"><img src="assets/images/image1.JPG"></div>
+            <div class="col-6 col-lg-4 col-md-6 col-sm-6 " id="image1"><img src="assets/images/image1.JPG"></div>
             <div class="col-4 " id="image2"><img src="assets/images/image 2.JPG"></div>
-            <div class="col-6 col-md-4 col-sm-4" id="image3"><img src="assets/images/image 3.JPG"></div>
+            <div class="col-6 col-lg-4 col-md-6 col-sm-6" id="image3"><img src="assets/images/image 3.JPG"></div>
 		
 		</div>
 	</section>
@@ -102,24 +105,6 @@
 			</div>
 			
 			<div class="col-12 col-sm-12 col-md-12 col-lg-5 inline-block bubble-container">
-                <!--<div class="row" id="hidden-row">
-                    <div class="col-5 inline-block" id="charcoal_bubble2">
-                <p>I can create personalised acrylic paintings on the following surfaces:<br>
-                    Paper<br>Cardboard<br>Canvas<br></p>
-                </div>
-                <div class="col-5 inline-block" id="mixedmedia_bubble2">
-                <p>I can create personalised acrylic paintings on the following surfaces:<br>
-                    Paper<br>Cardboard<br>Canvas<br></p>
-                </div>
-                <div class="col-5 inline-block" id="acrylic_bubble2">
-                <p>I can create personalised acrylic paintings on the following surfaces:<br>
-                    Paper<br>Cardboard<br>Canvas<br></p>
-                </div>
-                <div class="col-5 inline-block" id="pencil_bubble2">
-                <p>I can create personalised acrylic paintings on the following surfaces:<br>
-                    Paper<br>Cardboard<br>Canvas<br></p>
-                </div>
-            </div>-->
             <div class="row">
                 <div class="col-5 inline-block bubbles" id="acrylic-bubble">
                     <h3>Acrylic</h3>
@@ -141,25 +126,25 @@
 			</div>
 		</div>
 	</section>
-	<footer>
-		<div class="no-gutters sticky-bottom" id="footer">
-			<div class="row " id="footer-details">
+	<footer class="sticky-bottom no-gutters" id="footer">
+		<div class="no-gutters sticky-bottom">
+			<div class="row ">
 				<!--Location Details-->
-				<div class="col-sm-6 footer-contact-me">
-					<h5>Like what you see?</h5>
-					<p class="inline-block">
-                        Why not contact me? <br>
+				<div class="col-sm-6 footer-contact-me" id="footer-icons">
+                    <h4>Like what you see?</h4>
+                    <h5>Why not contact me...</h5>
+					<p class="footer-icons">
                         <a href="contactme.html"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                 </p>
 				</div>
 				
 				<!--Contact Details-->
-				<div class="col-sm-6">
-					<h5 class="uppercase">My Socials</h5>
-					<p class="inline-block contact-us">
-						<i class="fa fa-phone" aria-hidden="true"></i> <br>
-						<i class="fa fa-envelope" aria-hidden="true"></i> 
-					</p>
+				<div class="col-sm-6 footer-contact-me" id="footer-icons2">
+                    <h4>Need Inspiration?</h4>
+                    <h5>Check out more of my work...</h5>
+						<a href="https://www.instagram.com/downtherabbitholeuk/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+						<a href="https://www.etsy.com/de/shop/EmmasRabbitHole" target="_blank"><i class="fab fa-etsy" aria-hidden="true"></i></a>
+					
 				</div>
 			</div>
 		</div>

@@ -11,12 +11,12 @@
 </head>
 <body>
 	<header>
-		<div class="header container-fluid no-gutters">
-			<!--Navbar-->
-			<nav class="navbar navbar-light fixed-top">
+        <div id="navbar-container" class="row">
+            <div class="col-12">
+			<nav class="navbar navbar-light fixed-top" id="navbar">
 				<!--Main Heading/Logo-->
 				<div class="col-12">
-					<h1 class="main-heading">Down the Rabbit Hole</h1>
+					<h1 id="main-heading">Down the Rabbit Hole</h1>
 				</div>
 				<!--Menu Items/Links-->
 				<div class="col-12 toggle-container">
@@ -30,10 +30,10 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">My Artwork</a>
+                    <a class="nav-link" href="myartwork.html">My Artwork</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">My Shop</a>
+                    <a class="nav-link" href="myshop.html">My Shop</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="contactme.html">Contact Me</a>
@@ -47,19 +47,21 @@
 							<a href="index.html"><span>Home</span></a>
 						</li>
 						<li class="col-3 list-inline-item menulink" id="menulink2">
-							<a href="services.html"><span>My Artwork</span></a>
+							<a href="myartwork.html"><span>My Artwork</span></a>
 						</li>
 						<li class="col-3 list-inline-item menulink" id="menulink3">
-							<a href="contact.html"><span>My Shop</span></a>
+							<a href="myshop.html"><span>My Shop</span></a>
                         </li>
                         <li class="col-2 col-md-3 list-inline-item menulink" id="menulink4">
 							<a href="contactme.html"><span>Contact Me</span></a>
 						</li>
                     </ul>
                     </div>
-			</nav>
-		</div>
-    </header>
+            </nav>
+        </div>
+    </div>
+		
+	</header>
     <section class="artwork-container">
         <div class="artwork-heading">
             <h1>My Artwork</h1>
@@ -79,6 +81,29 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 inline-block tiles"><img src="assets/images/oct2.jpg"></div>
         </div>
     </section>
+<footer class="sticky-bottom no-gutters" id="footer">
+		<div class="no-gutters sticky-bottom">
+			<div class="row ">
+				<!--Location Details-->
+				<div class="col-sm-6 footer-contact-me" id="footer-icons">
+                    <h4>Like what you see?</h4>
+                    <h5>Why not contact me...</h5>
+					<p class="footer-icons">
+                        <a href="contactme.html"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </p>
+				</div>
+				
+				<!--Contact Details-->
+				<div class="col-sm-6 footer-contact-me" id="footer-icons2">
+                    <h4>Need Inspiration?</h4>
+                    <h5>Check out more of my work...</h5>
+						<a href="https://www.instagram.com/downtherabbitholeuk/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+						<a href="https://www.etsy.com/de/shop/EmmasRabbitHole" target="_blank"><i class="fab fa-etsy" aria-hidden="true"></i></a>
+					
+				</div>
+			</div>
+		</div>
+    </footer>
     
 
 

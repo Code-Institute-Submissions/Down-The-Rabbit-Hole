@@ -22,7 +22,7 @@ $("#charcoal_img").mouseenter(function(){
 
 window.addEventListener('resize',checkMediaQuery);
 
-$("#acrylic_img").hover(function(){
+/* $("#acrylic_img").hover(function(){
     $("#acrylic_bubble").toggle();
 
 }
@@ -79,4 +79,4 @@ $("#pencil_img").mouseenter(function(){
     $("#acrylic-bubble").empty().append("<p>I can create acrylic</p>");
 
 }
-);
+);*/

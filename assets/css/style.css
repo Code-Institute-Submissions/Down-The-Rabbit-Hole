@@ -15,16 +15,25 @@ body{
     margin:0;
     padding:0px;}
 
+
 /*--------------------Header----------------*/
+
+#navbar-container{
+    width:100%;
+}
 
 #navbar{
     vertical-align:top;
     padding-bottom:10px;
     padding-right:0px;
+    padding-left:0px;
     margin-bottom:20px;
+    margin-left:0px;
+    margin-left:0px;
+
     
     background-color:#ff61a5cb;
-    width:100%;
+    max-width:100%;
     height:180px;
     border: 3px solid purple;}
 
@@ -130,12 +139,7 @@ body{
 
    #image1 {
     display:inline-block;
-    object-fit:fill;
     padding:0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   height:350px;
   animation-name: main-zoom;
   animation-duration:3s;
@@ -143,41 +147,48 @@ body{
   }
 
    #image2 {
-       overflow:hidden;
-    position:inline-block;
+    display:inline-block;
     padding:0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height:350px;
-  animation-name: main-zoom;
-  animation-duration:3s;
-  }
-
-   #image3 {
-    position:inline-block;
-    padding:0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   height:350px;
   animation-name: main-zoom;
   animation-duration:3s;
   overflow:hidden;
   }
 
-@media (max-width:1000px){
+   #image3 {
+    display:inline-block;
+    padding:0;
+  height:350px;
+  animation-name: main-zoom;
+  animation-duration:3s;
+  overflow:hidden;
+  }
+#image3 img{object-fit:fill;
+height:350px;}
+
+#image1 img{object-fit:fill;
+height:350px;}
+
+#image2 img{object-fit:fill;
+height:350px;}
+
+@media (max-width:992px){
     #image2{
         display:none;
     }
-
 }
 
-@media(max-width:670px){
-    #image3{display:none;}
+
+
+
+
+@media(max-width:576px){
+    #image1 img{object-fit:cover;
+    height:250px;}
+    #image3 img{object-fit:cover;
+    height:250px;}
 }
+
 
 @keyframes main-zoom{
     from{transform:scale(0.8);
@@ -185,9 +196,6 @@ body{
     to{transform:scale(1);
     }}
 
-@media (min-width:1100px){
-    #logo{
-        background-size:cover;}}
 
 .bubble{
     background-color:rgba(241, 9, 183, 0.658);
@@ -206,17 +214,6 @@ body{
         width:50%;
         height:30%;}}
 
-.bubble p{
-    font-family:'Amita', cursive;
-    font-size:28px;
-    color:#fafafa;
-    padding-top:20px;
-    text-align:center;
-    vertical-align:middle;}
-
-@media (max-width:600px){
-    .bubble p{
-        font-size:24px;}}
 
 /*--------------------Section Main Page----------------*/
 
@@ -408,6 +405,7 @@ body{
 
 .artwork-container{
     margin-top:200px;
+    margin-bottom:20px;
 }
 .artwork-heading{
     text-align:center;
@@ -419,6 +417,11 @@ body{
     border:solid 2px purple;
     margin:5px;
     
+}
+
+/*-----------------Shop------------------------*/
+#shop{
+    height:300px;
 }
 
 /*--------------------Contact Page----------------*/
@@ -534,40 +537,27 @@ body{
     color:#fafafa;
     min-height:120px;
     padding-top:15px;
-    width:100%;
+
     text-align:center;
+    position: relative;
     }
 
-#contact-footer{
-    position: absolute;
-}
+
 
 .footer-contact-me{
     font-family:'Calligraffitti';
     font-size:25px;
 }
 
-.footer-contact-me i{
+#footer-icons i:hover{color:purple;}
+
+#footer-icons2 i:hover{color:purple;}
+
+#footer-icons i{
     color:#fafafa;
 }
 
-.covid a{
+#footer-icons2 i{
     color:#fafafa;
-    font-size:15px;
-    padding:10px;}
-
-.covid-risk i{
-    color:pink;}
-
-.covid-risk i:hover{color:#fafafa;}
-
-.covid-risk:hover{color:#f58f3bbf;
-        text-shadow: 5px 5px 10px #fafafa;
-        text-decoration:none;}
-
-.contact-us{
-    padding-top:5px;}
-
-.contact-us i{
-   color:pink; 
-   font-size:20px;}
+    padding:2px;
+}
