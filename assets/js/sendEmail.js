@@ -7,9 +7,18 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            document.getElementById("myForm").reset();
         },
         function(error) {
             console.log("FAILED", error);
-        }
-    );
-    return false;  }
+        });
+        
+        
+         return false;  }
+        
+     
+
+
+    
+    
+   

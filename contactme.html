@@ -82,7 +82,7 @@
 		
 						<div class="col-11 col-md-offset-0 col-md-6 inline-block form form-container" >
                             <h3 class="contact-heading text-center">Want a personalised piece of art?</h3>
-							<form onsubmit="return sendMail(this);">
+							<form id="myForm" onsubmit="return sendMail(this);">
 								<div class="col input-box">
 									<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
                 </div>
@@ -97,7 +97,7 @@
 											</div>
 											<div class="form-row text-center">
 												<div class="col submit-button">
-													<button type="submit" class="btn btn-secondary button">Send me your request</button>
+													<button type="submit" class="btn btn-secondary button" id="button">Send me your request</button>
 												</div>
 											</div>
 							</form>
