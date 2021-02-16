@@ -1,7 +1,7 @@
 
 /*function fetchEtsyInformation(){
 $.when(
-        $.getJSON(`https://openapi.etsy.com/v2/shops/EmmasRabbitHole/listings/active.js?api_key=uf11esagqu3i9npmikuc0oab`),
+        $.getJSON(`https://openapi.etsy.com/v2/shops/ACraftyCarrot/listings/active.js?api_key=uf11esagqu3i9npmikuc0oab`),
        
     ).then(
         function(firstResponse, secondResponse) {
@@ -30,7 +30,7 @@ function populateSection(shopSectionID) {
     });
 };
 
-$(document).ready(populateSection);*/
+$(document).ready(populateSection);
 
 function findAllShopListingsActive(listings){
     return `
@@ -41,7 +41,7 @@ function findAllShopListingsActive(listings){
 
 function fetchEtsyInformation(event){
     $.when(
-        $.getJSON(`https://openapi.etsy.com/v2/users/ACraftyCarrot?api_key=uf11esagqu3i9npmikuc0oab`)
+        $.getJSON(`https://openapi.etsy.com/v2/shops/ACraftyCarrot/listings/active.js?api_key=uf11esagqu3i9npmikuc0oab`)
     ).then(
         function(response){
             var listingsData = response;
@@ -53,3 +53,24 @@ function fetchEtsyInformation(event){
 $(document).ready(function(){
     fetchEtsyInformation();
 });
+*/
+
+function listingsInformationHTML(listings) {
+    return `
+       <div class="listings">
+            <div>
+            <p>Title: ${listings.title} <br> Description: ${listings.description}</p>
+        </div>`;
+}
+
+
+
+function fetchEtsyInformation(event){
+    $.when(
+        $.getJSON(`https://openapi.etsy.com/v2/shops/ACraftyCarrot/listings/active.js?api_key=uf11esagqu3i9npmikuc0oab`)
+    ).then(
+        function(firstResponse) {
+            var listingsData = firstResponse[0];
+            $("#listings").html(listingsInformationHTML(listingsData));
+            
+        })}
