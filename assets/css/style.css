@@ -462,8 +462,13 @@ width:100%;
 }
 
 /*-----------------Shop------------------------*/
-#shop{
-    height:300px;
+#myshop{
+    margin-top:220px;
+}
+
+#listing{
+    height:100%;
+    text-align:center;
 }
 
 /*--------------------Contact Page----------------*/

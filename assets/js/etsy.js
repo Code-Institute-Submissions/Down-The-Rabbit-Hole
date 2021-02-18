@@ -53,9 +53,10 @@ $(document).ready(function () {
                 console.log(i);
                 srcImage = result.MainImage.url_170x135;
 
-                $("#listing")
-                    .append($("<a href='" + result.url + "'></a>").append("<img src='" + srcImage + "'>"))
+                $("<div>").appendTo("#listing")
+                    
                     .append($("<div>").text(result.title))
+                    .append($("<a href='" + result.url + "'></a>").append("<img src='" + srcImage + "'>"))
                     .append($("<div>").text("$" + result.price));
             });
         },
