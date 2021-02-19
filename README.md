@@ -2,7 +2,7 @@
 <h4><a href="https://github.com/elliemcavoy/Down-The-Rabbit-Hole" target="_blank">GitHub Link</a></h4>
 <h4><a href="https://elliemcavoy.github.io/Down-The-Rabbit-Hole/" target="_blank">Deployed Project</a></h4>
 <img src="/assets/images/website.PNG">
-<p>I have used this project to create a website for our family business. My grandfather, father & uncle have all worked in the family engineering business for over 50 years however they have never had a webpage dedicated to the work they do. This website will advertise their services and offer examples of their work to potential clients.</p> 
+<p>This project is dedicated to my friend's fledgling art business. The website is to display and advertise her artistic achievements.</p> 
 
 <h2>Table of Contents</h2>
 <ol>
@@ -29,7 +29,8 @@
 </ol>
 
 <h2 id="ux"><u>UX</u></h2>
-The aim of this project is to primarily raise awareness that the business exists and is in operation. Having had no online presence previously, this webiste's main purpose is to reach the customers that are requiring these services. The secondary purpose will be to generate more enquiries and ultimately business for the company. 
+The website's primary purpose is to promote this small start up business. It will be used to not only display artwork and provide examples of possible designs but also to invite viewers to contact the artist for personalised designs as well. The website will also provide a look into the artists existing Etsy shop and allow website visitors to purchase these items. The ultimate goal will be to generate new business for the company as well as a way for existing customers to re-order.
+
 
 <h4 id="wireframes">Wireframes</h4>
 Please see the wireframes for this project:<br>
