@@ -445,7 +445,7 @@ width:100%;
 }
 
 .artwork-container{
-    margin-top:200px;
+    margin-top:240px;
     margin-bottom:20px;
 }
 .artwork-heading{
@@ -466,15 +466,58 @@ width:100%;
     margin-top:220px;
 }
 
+.myshop-header{
+    text-align:center;
+    font-family:'Courgette';
+    color:purple;
+    
+}
+
 #listing{
     height:100%;
     text-align:center;
 }
 
+.listings{
+    margin:10px;
+    height:330px;
+    vertical-align:top;
+    position: relative;
+    display:inline-block;
+    padding:15px;
+    background-color:pink;
+    text-align:center;
+}
+
+.listings img{
+    border:2px solid purple;
+}
+.buy-button a{
+    font-family:'Alice';
+    color:#fafafa;
+}
+
+.buy-button{
+    text-transform:uppercase;
+    background-color:purple;
+    color:white;
+    font-weight:700;
+    border:pink;
+margin-top:10px;
+vertical-align:bottom;}
+
+.buy-button:hover{
+    background-color:pink;
+    border:solid 2px purple;
+    color:purple;
+    
+}
+
+
 /*--------------------Contact Page----------------*/
 .contact-us-section{
     min-height:900px;
-    padding-top:180px;}
+    padding-top:220px;}
 
 @media(max-width:576px){
     .contact-us-section{padding-top:190px;
