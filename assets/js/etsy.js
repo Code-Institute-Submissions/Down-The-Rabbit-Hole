@@ -12,11 +12,11 @@ $(document).ready(function () {
                 console.log(i);
                 srcImage = result.MainImage.url_170x135;
 
-                $("<div class='col-10 offset-1 col-sm-6 col-md-4 listings'>").appendTo("#listing")
+                $("<div class='col-10 offset-1 col-sm-10 col-md-4 col-lg-4 listings'>").appendTo("#listing")
                     
                     
                     .append($("<a href='" + result.url + "'></a>").append("<img src='" + srcImage + "'>"))
-                    .append($("<div>").text(result.title))
+                    .append($("<div class='results-title'>").text(result.title))
                     .append($("<div>").text("Price: "  + result.price + result.currency_code))
                     .append($("<button class=' btn btn-secondary buy-button'>Buy Now<a href='"+ result.url +"'></a></button>"));
             });

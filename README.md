@@ -38,20 +38,20 @@ Please see the wireframes for this project:<br>
 <a href="./assets/documentation/Wireframe-mobile.pdf" target="_blank">Mobile</a>
 
 <h4 id="target-audience">Target Audience</h4>
-The target audience for this website can be split into two categories.<br>
+
 <ul>
-<li>Firstly it is aimed at potential local customers. These are both business and personal customers who could benefit from the services offered by Holgate Engineering.</li>
-<li>The second target would be national companies that are looking for a smaller engineering company to perform bespoke or production work to a high standard.
-It will also provide a detailed explanation of the types of work that can be carried out. For example, Holgate Engineering regularly repairs the local bakeries mechanical equipment insitu. Similar businesses may be looking for an equivilant service but are unaware of Holgate Engineering's wide range of services on offer.</li>
-<li>Targeting larger companies nationwide will be a secondary objective for the website. Holgate Engineering already has a number of national companies that they provide production parts for. However these were acquired by word of mouth and so the website will be used to showcase to similar customers that they are already successfully completing high volume production work.</li>
-<li>For both categories of audience, the demographic to be targeted will be predominently customers over the age of 25. The reason for this being, a very large proportion of Holgate Engineering's current clients fall into this demographic. Also the style of machinery used in this workshop is more suited to more "Old Fashioned Engineering". This is not to discourage the younger generation but Holgate Engineering needs to website to be suitable for their key customers. </li>
+<li>The first audience that this website will be targeting is customers who are art enthusiasts and fellow artists that are local to the artist. They will be able to actually visit the studio and purchase items directly from the artist.</li>
+<li>The second target would be national and even international customers that are looking to purchase unique artwork. As the artist already has an international following on Instagram so this website will be aimed at these followers to allow them to asily purchase items.</li>
+<li>Finally, this website would be looking to target customers who want a personalised piece of art creating to their exact specifications in any media that they choose.</li>
+
 </ul>
 
 <h4 id="website-aim">Website Aim</h4>
 <ul>
-<li>This website will be used to provide the knowledge to local customers on what the business can offer them and why Holgate Engineering should be chosen. For example, the business owners would like to show that they can offer the same services as an original manufacturer e.g. a car part needing refurbishment can be completed quicker and cheaper by Holgate Engineering than if the part was to be sent back to the original manufacturer.</li>
-<li>It will also aim to supply customers with confidence in the company. This is especially important for a business that has previously had no online presence. </li>
-<li>In essence, the website will be a window into workshop and needs to be used to gain customer's confidence and lead to an enquiry or job.</li>
+<li>The main aim of the website will be to raise awareness of the artist and where to find their studio and to help them attract more customers.</li>
+<li>The website will also be looking to showcase artwork from the artist to give potential customers an idea of the options available to them should they wish to purchase.</li>
+<li>A primary aim is to provide a link to the artists's existing Etsy shop so that purchases can be made without any additional contact to the seller. By using the existing Etsy shop, it will also provide confidence in the buying process as it will use a verified merchant.</li>
+<li>The website will be looking to provide an easy link to the artist and a way of contacting them directly to get personalised artwork created.</li>
 </ul>
 
 <h4 id="user-stories">User Stories</h4>
@@ -64,20 +64,20 @@ It will also provide a detailed explanation of the types of work that can be car
 </ul>
 
 <h4 id="design">Design</h4>
-This project has been tailored towards the target audience, with the aims in mind.<br>
+This project has been tailored towards the artistic target audience, with the aims in mind.<br>
 <ul>
-<li>Engineering is seen as a strong and precise profession therefore the website design mirrors this.</li>
-<li>Based on the existing customer demographic and the fact that Holgate Engineering provides a service that is not very often seen any more, the website needs to be easy to navigate.</li>
-<li>Many visitors to the website may not be particularly tech savy so the layout is easy to read and the menu headings are always shown.</li>
-<li>The design, however, also needs to appeal to the business customers. The strong lines and square shapes will appeal to these customers as it is in keeping with the products and services being advertised.</li>
+<li>With the aim of the website trying to attract atristic customers, the website design has been created to showcase as much of the artist's work as possible. There are many images on show which will be the first thing that are seen by website users.</li>
+<li>The colour scheme has been chosen to link in with the websites name - Down the Rabbit Hole. As a homage to Alice in Wonderland, the colour scheme has been chosen to match that of the Cheshire Cat (pink and purple).</li>
+<li>Many potential customers not only want to see proof of the artists achievements but also find out about the artist's background. Therefore the homepage is dedicated to the artist and her background as well as the type of media she uses.</li>
+<li>For those who are already aware of the artist and are maybe returning customers, there are easy links to the "Shop" and the "Contact" page so they can start browsing new products straightaway.</li>
 </ul>
 
 <h5 id="typography">Typography</h5>
 3 Google Fonts were used in this project:
 <ol>
-<li>Alfa Slab One - h1, h2</li>
-<li>Raleway - Body Text</li>
-<li>Amita - Slogan Bubble</li>
+<li>Calligraffitti' - Main Heading</li>
+<li>Courgette - Headings </li>
+
 </ol>
 
 
@@ -102,6 +102,7 @@ This project has been tailored towards the target audience, with the aims in min
 <ul>
 <li>HTML5</li>
 <li>CSS3 </li>
+<li>JavaScript</li>
 <li>Google Developer Tools</li>
 <li>JQuery</li>
 <li>Git</li>
