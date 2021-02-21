@@ -457,17 +457,19 @@ width:100%;
 .bubble{
     background-color:purple;
     width:35%;
-    height:15%;
+    height:20%;
     position:absolute;
     left:5%;
     top:5%;
     z-index: 2;
-    font-family:'Alice';
+    font-family:'Balsamiq Sans';
     text-align:center;
-    font-size:10px;
+    font-size:14px;
     color:#fafafa;
     border:solid 1px #fafafa;
     padding:4px;
+    padding-top:10px;
+    
 
 }
 

@@ -18,7 +18,7 @@ $(document).ready(function () {
                     .append($("<a href='" + result.url + "'></a>").append("<img src='" + srcImage + "'>"))
                     .append($("<div class='results-title'>").text(result.title))
                     .append($("<div>").text("Price: "  + result.price + result.currency_code))
-                    .append($("<button class=' btn btn-secondary buy-button'>Buy Now<a href='"+ result.url +"'></a></button>"));
+                    .append($("<a href='"+ result.url +"' target='_blank'><button class=' btn btn-secondary buy-button'>Buy Now</button></a>"));
             });
         },
     });

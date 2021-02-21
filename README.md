@@ -55,13 +55,14 @@ Please see the wireframes for this project:<br>
 </ul>
 
 <h4 id="user-stories">User Stories</h4>
-<ul>
-<li>As a personal customer I would like to explore the services offered, to do this I can easily click on the "Services" page and scroll through the options available.</li>
-<li>As a personal customer I would like to check the reputation of the business and their safety procedures. I can easily access the Covid safety procedures via the link in the footer and can see the testimonials from other customers as soon as I access the webpage.</li>
-<li>As a business customer I would like to ensure the service I require is available and get a quick and easy quote. I can do this simply by accessing the "Services" page and once I have found the service required, I can use the Contact Form to send a request.</li>
-<li>As a user of the website I would like to be able to use the website on any type of device and be able to navigate through the website easily on any device. I have tried the website on a tablet, mobile and a desktop and the layout remains the same so I can easily access the pages required.</li>
-<li>As a user I want to be able to locate contact details easily from any page on the website. I am able to find the contact number and email address easily via the website footer which is available on every page.</li>
-</ul>
+As a user of the website, the following actions and results would be required.
+<ol>
+<li>I would like to be able to browse and purchase items that are for sale by the artist.</li>
+<li>I would like to be able to see a gallery of artwork created by the artist to see if the styles and designs are what I am looking for.</li>
+<li>As a local customer, I would like to be able to easily find the address and location of the artists studio so I can view the artwork in person. </li>
+<li>I would like to be able to contact the artist for personalised artwork and for a quote.</li>
+<li>I would like to be able to follow the artist on social media so I can keep up to date with new artwork that is available.</li>
+<li>I would like to be able to navigate between the webpages without having to return to the homepage.</li></ol>
 
 <h4 id="design">Design</h4>
 This project has been tailored towards the artistic target audience, with the aims in mind.<br>
@@ -86,8 +87,11 @@ This project has been tailored towards the artistic target audience, with the ai
 
 <h4 id="existing-features">Existing Features</h4>
 <ol>
-<li>Navbar - Allows users to navigate through the website by clear headings on the navbar. Clicking on each will direct them to the page they require.</li>
-<li>Main Image - Allows customers to see an example of Holgate Engineering's work and also provides movement on the page. This draws the customers attention to the image and also the companies moto which is layered over the image.</li>
+<li>Navigation - Allows users to navigate through the different pages on the website. On a large or medium screen size, the links are visible in the header at all times. On smaller screen sizes, the navbar is compressed to allow users to still view as much of the webpage as possible.</li>
+<li>Image Banner (Homepage) - Allows website viewers to see examples of the artists work as soon as they visit the website.</li>
+<li>Artwork Gallery - This is a feature dedicated to showcasing the artists work.</li>
+<li>Shop - Using the Etsy API this feature allows users to browse and purchase items through a trusted site.</li>
+
 <li>Footer - Allows users to quickly locate important information such as contact details and risk assessments no matter which page they are viewing.</li>
 <li>Services Modals - Allows customers to gain an idea of prices for each service on offer without having to contact the company. By clicking on the 'Prices' button, a modal in shown on the same page to avoid customers have to navigate back to the section they were currently viewing.</li>
 <li>Contact Form - Allows customers to send a quick message to Holgate Engineering without having to open their own emails. It will also not allow customers to miss any important information by using 'required' fields.</li>
@@ -95,8 +99,7 @@ This project has been tailored towards the artistic target audience, with the ai
 
 <h4 id="new-features">Features Left to Implement</h4>
 <ul>
-<li>A gallery of products that have already been manufactured or repaired by Holgate Engineering. This is not currently possible due to the current COVID-19 situation to visit previous customers and gain their permission to photograph and display their products.</li>
-<li>An interactive tour of the workshop to show customers the machinery on offer.</li>
+<li>A page dedicated to video tutorials of simple artwork that anyone can create at home</li>
 </ul>
 <h2 id="technologies"><u>Technologies Used</u></h2>
 <ul>
@@ -117,72 +120,12 @@ This project has been tailored towards the artistic target audience, with the ai
 <h4>Validators</h4>
 <ul>
 <li>W3C HTML Validator</li>
-<li>W3C CSS Validator</li></ul>
+<li>W3C CSS Validator</li>
+<li>JSHint</li>
+</ul>
 
 <h4>Manual Testing</h4>
-I manually tested the following to make sure they worked as designed:
-
-<h5>Navbar</h5>
-<ul>
-<li>Viewing the Navbar from each of the three pages, it looks identical.</li>
-<li>There are three options: Home, Services, Contact.</li>
-<li>Clicking on the Home link will takes you to the index.html page.</li>
-<li>Clicking on the Services link takes you to the services.html page.</li>
-<li>Clicking on the Contact link takes you to the contact.html page.</li>
-</ul>
-
-<h5>COVID-19 Risk Assessment</h5>
-<ul>
-<li>Scroll to the footer and the link is labelled.</li>
-<li>Upon clicking on the link, the COVID-19 risk assessment will open as a PDF in a separate browser window.</li>
-</ul>
-
-<h5>Contact Form</h5>
-<ul>
-<li>Click on the "Contact" link.</li>
-<li>Submitting the form without a name is not permitted. A warning appears "Please fill in this field".</li>
-<li>After entering a name and trying to submit, a warning "Please fill in this field" appears below the phone number box.</li>
-<li>After entering a phone number and trying to submit, a warning "Please fill in this field" appears below the emaill address box.</li>
-<li>After entering an emaill address and trying to submit, a warning "Please fill in this field" appears below the requirements box.</li>
-<li>Therefore the form cannot be submitted without all of te required items.</li>
-</ul>
-
-<h5>Services Modals</h5>
-<ul>
-<li>Click on the "Services" link.</li>
-<li>Click on the "Prices" button below each service item.</li>
-<li>A modal will appear centrally on the screen.</li>
-<li>Clicking on the "Close" button will remove the modal.</li>
-<li>Clicking on the "X" will also remove the modal.</li>
-</ul>
-
-<h5>Different Screen Sizes</h5>
-<ul>
-<li>On a mobile device</li>
-<ul>
-<li>The header is condensed but all the page links are still visible. As the header is fixed to the top, the links can be accessed no matter how far down the page your are</li>
-<li>The hero image is visible and the sections are placed under each other and take up the full width of the screen</li>
-<li>The footer allows the contact details to be stacked on top of each other and still easily accessed</li>
-<li>The services boxes are stacked on top of each other and are full width</li>
-<li>The contact form appears in the middle of the page</li>
-</ul>
-<li>On a tablet</li>
-<ul>
-<li>The header is condensed but all the page links are still visible to the right hand side. As the header is fixed to the top, the links can be accessed no matter how far down the page your are</li>
-<li>The hero image is visible and the sections are placed next to each other</li>
-<li>The footer items are still visible next to each other</li>
-<li>The services boxes are in a grid system with two boxes per row</li>
-<li>The contact form is still visible in the center of the page</li>
-</ul>
-<li>On a desktop</li>
-<ul>
-<li>The header items are linear and span the width. Also the icons are visible at each end of the header. As the header is fixed to the top, the links can be accessed no matter how far down the page your are</li>
-<li>The hero image is visible and the sections are placed next to each other</li>
-<li>The footer items are visible next to each other</li>
-<li>The services boxes are in a grid system with two boxes per row but wider than a tablet</li>
-<li>The contact form is visible in the center of the page and the email and phone number are shown at each side</li>
-</ul>
-</ul>
+I have carried out a lot of manual testing on different aspects of this project. Please see detailed manual testing logs <a href="testing.md"> here </a>.
 
 
 <h2 id="deployment"><u>Deployment</u></h2>
