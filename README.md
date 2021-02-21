@@ -34,8 +34,8 @@ The website's primary purpose is to promote this small start up business. It wil
 
 <h4 id="wireframes">Wireframes</h4>
 Please see the wireframes for this project:<br>
-<a href="./assets/documentation/Wireframe.pdf" target="_blank">Desktop</a><br>
-<a href="./assets/documentation/Wireframe-mobile.pdf" target="_blank">Mobile</a>
+<a href="assets/images/Desktop.pdf" target="_blank">Desktop</a><br>
+<a href="assets/images/Mobile.pdf" target="_blank">Mobile</a>
 
 <h4 id="target-audience">Target Audience</h4>
 
@@ -67,7 +67,7 @@ As a user of the website, the following actions and results would be required.
 <h4 id="design">Design</h4>
 This project has been tailored towards the artistic target audience, with the aims in mind.<br>
 <ul>
-<li>With the aim of the website trying to attract atristic customers, the website design has been created to showcase as much of the artist's work as possible. There are many images on show which will be the first thing that are seen by website users.</li>
+<li>With the aim of the website trying to attract artistic customers, the website design has been created to showcase as much of the artist's work as possible. There are many images on show which will be the first thing that are seen by website users.</li>
 <li>The colour scheme has been chosen to link in with the websites name - Down the Rabbit Hole. As a homage to Alice in Wonderland, the colour scheme has been chosen to match that of the Cheshire Cat (pink and purple).</li>
 <li>Many potential customers not only want to see proof of the artists achievements but also find out about the artist's background. Therefore the homepage is dedicated to the artist and her background as well as the type of media she uses.</li>
 <li>For those who are already aware of the artist and are maybe returning customers, there are easy links to the "Shop" and the "Contact" page so they can start browsing new products straightaway.</li>
@@ -78,6 +78,7 @@ This project has been tailored towards the artistic target audience, with the ai
 <ol>
 <li>Calligraffitti' - Main Heading</li>
 <li>Courgette - Headings </li>
+<li>Balsamiq Sans - Other text</li>
 
 </ol>
 
@@ -110,9 +111,9 @@ This project has been tailored towards the artistic target audience, with the ai
 <li>JQuery</li>
 <li>Git</li>
 <li>GitHub</li>
-<li><a href="https://getbootstrap.com/">Bootstrap</a> - Used to provide structure to the project and to provide certain styles that I would otherwise have been unable without JavaScript </li>
-<li><a href="https://fontawesome.com/">Font Awesome</a>  - Used to provide metaphors without using words and to add styling to the page. Used as links to exterior sources.</li>
-<li><a href="https://fonts.google.com/">Google Fonts</a> - Used to provide a uniform styling of fonts but that differ from the norm and provide a unique look.</li>
+<li><a href="https://getbootstrap.com/">Bootstrap</a> - Used to provide structure for pages and Navbar design. </li>
+<li><a href="https://fontawesome.com/">Font Awesome</a>  - Used to add styling to the page and as links to exterior sources.</li>
+<li><a href="https://fonts.google.com/">Google Fonts</a> - Used to create a look in keeping with the website aim and to create uniform styling throughout.</li>
 </ul>
 
 <h2 id="testing"><u>Testing</u></h2>
@@ -140,17 +141,22 @@ I have carried out a lot of manual testing on different aspects of this project.
 <h2 id="credits"><u>Credits</u></h2>
 <h4>Content </h4>
 <ul>
-<li>HTML, CSS and JavaScript Modal Code directly from Bootstrap 4.5. Used on my 'Services' page.</li>
-<li>HTML and CSS Center Form code directly from Bootstrap 4.5. Used on my 'Contact' page.</li>
+<li>Bootstrap 4.5 used for Navbar and Toggle Navbar layout.</li>
+<li>JavaScript for maps.js modified from code used in Tutorials and the source code provided by Code Institute for lessons on Goggle Maps API.</li>
+<li>JavaScript for sendEmail.js modified from code used in Tutorials and source code from Code Institute for EmailJS API.</li>
+<li>HTML and CSS Center Form code directly from Bootstrap 4.5. Used on 'Contact Me' page.</li>
 <li>Google Fonts for font styles.</li>
-<li>The text from the testimonials was provided by Pam Gregory (Local resident and customer) & George Barkers LTD (Business Customer).</li>
-<li>The information provided in the 'About Us' and 'Services' sections was provided by Brian McAvoy (Co-owner of Holgate Engineering).</li>
+<li>Tutor Support - assistance with etsy.js JavaScript to replace GET Json with an ajax call to avoid CORS policy.</li>
+<li>Tutor Support - assistance with bubbles.js JavaSript to apply functions to different elements.</li>
+<li>Code Institute Tutorials - assistance with writting JavaScript code for bubbles.js and etsy.js</li>
+<li>Etsy API Documentation - documentation used to identify correct methods and calls for listings data.</li>
+<li>The information provided in the 'About Me' section was provided by Emma Walmsley (Artist).</li>
 <li>Stack Overflow - Used to find answers to coding problems found during the project.</li>
 </ul>
 
 <h4>Media</h4>
 <ul>
 <li>Font Awesome for all icons <a href="https://fontawesome.com/">https://fontawesome.com/</a></li>
-<li>The photo used on this site was taken from <a href="https://www.geograph.org.uk/photo/1016199">https://www.geograph.org.uk/photo/1016199</a></li>
+<li>The images used for this site were all provided by Emma Walmsley and are her personal artwork designs.</li>
 <li>Am I responsive website to check the responsiveness on different devices. Also to create the image provided above. <a href="http://ami.responsivedesign.is/">http://ami.responsivedesign.is/</a></li>
 

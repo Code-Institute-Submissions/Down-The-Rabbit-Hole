@@ -1,8 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
 
@@ -46,9 +45,6 @@ section{
     #navbar{height:145px;}
 }
 
-
-
-
 #main-heading{
     font-family:'Calligraffitti';
     font-size:7vw;
@@ -59,8 +55,6 @@ section{
     margin:0px;
 }
 
-
-
 .list-inline{
     padding:0px;
 margin:0px;}
@@ -69,10 +63,8 @@ margin:0px;}
     margin:0px;
 }
 
-
 #menulink1{
-    
-    margin:0px;
+     margin:0px;
 }
 
 #menulink2{
@@ -130,27 +122,21 @@ margin:0px;}
 #navbarSupportedContent1{
     background-color:#ff61a5;
     width:120px;
-    border: 3px solid purple;
-}
+    border: 3px solid purple;}
 
 #navbarSupportedContent1 li{
-    padding-left:3px;
-}
+    padding-left:3px;}
 
 .navbar-toggler{
-    border:0.5px solid purple;
-    
+    border:0.5px solid purple;}
 
-}
 .navbar-toggler i{
     color:purple;
-    font-size:20px;
-}
+    font-size:20px;}
 
 .toggle-container{
     margin-top:10px;
-    vertical-align:center;
-}
+    vertical-align:center;}
 
 @media screen and (min-width:770px){
     .toggle-container{display:none;}
@@ -159,6 +145,7 @@ margin:0px;}
 @media screen and (max-width:770px){
     .largescreen-nav{display:none;}
 }
+
 /*--------------------Main Image----------------*/
 
 #img-container{
@@ -166,59 +153,49 @@ margin:0px;}
     position:relative;
     width:100%;
     overflow:hidden;
-    padding-left:10px;
-    }
+    padding-left:10px;}
 
 @media screen and (max-width:770px){
     #img-container{
-        padding-top:165px;
-    }
+        padding-top:165px;}
 }
 
-
-
-
-
-   #image1 {
+#image1 {
     display:inline-block;
     padding:0;
   height:300px;
   text-align:center;
   animation-name: main-zoom;
   animation-duration:3s;
-  overflow:hidden;
-  }
+  overflow:hidden;}
 
-   #image2 {
+#image2 {
     display:inline-block;
     padding:0;
     text-align:center;
   height:300px;
   animation-name: main-zoom;
   animation-duration:3s;
-  overflow:hidden;
-  }
+  overflow:hidden;}
 
-   #image3 {
+#image3 {
     display:inline-block;
     padding:0;
     text-align:center;
   height:300px;
   animation-name: main-zoom;
   animation-duration:3s;
-  overflow:hidden;
-  }
+  overflow:hidden;}
 
-    #image4 {
+#image4 {
     display:inline-block;
     padding:0;
     text-align:center;
   height:300px;
-  
   animation-name: main-zoom;
   animation-duration:3s;
-  overflow:hidden;
-  }
+  overflow:hidden;}
+
 #image3 img{object-fit:fill;
 height:300px;
 padding:10px;}
@@ -229,28 +206,21 @@ padding:10px;}
 
 #image2 img{object-fit:fill;
 height:300px;
-padding:10px;
-}
+padding:10px;}
 
 #image4 img{object-fit:fill;
 height:300px;
 padding:10px;
-width:100%;
-}
+width:100%;}
 
 @media (max-width:992px){
     #image2{
-        display:none;
-    }
+        display:none;}
 }
 
 @media(max-width:768px){
     #image4{display:none;}
 }
-
-
-
-
 
 @media(max-width:576px){
     #image1 img{object-fit:cover;
@@ -259,23 +229,11 @@ width:100%;
     height:250px;}
 }
 
-
 @keyframes main-zoom{
     from{transform:scale(0.8);
     }
     to{transform:scale(1);
     }}
-
-
-
-
-@media (max-width:600px){
-    .bubble{
-        bottom:17%;
-        right:25%;
-        width:50%;
-        height:30%;}}
-
 
 /*--------------------Section Main Page----------------*/
 
@@ -285,11 +243,12 @@ width:100%;
 .bubble-container{
     margin-top:40px;
     margin-bottom:20px;
-    margin-left:50px;
-}
+    margin-left:50px;}
+
 @media(max-width:770px){
     .bubble-container{margin-left:10px;}
 }
+
 .bubbles{
     padding-bottom:10px;
     width:85px;
@@ -298,26 +257,23 @@ width:100%;
     z-index:1;
     position:relative;
     font-family:'Balsamiq Sans';
-    text-align:center;    
-}
+    text-align:center;}
 
 .bubbles p{
     vertical-align:center;
     padding:10px;
-    color:purple;
-}
+    color:purple;}
 
 .bubbles h3{
     text-align:center;
     font-family:'Courgette';
     color:purple;
-    padding-top:5px;
-}
+    padding-top:5px;}
 
 #hidden-row{
     position:absolute;
-    z-index:3;
-}
+    z-index:3;}
+
 #acrylic_img img{
     display:block;
     height:70%;
@@ -325,8 +281,7 @@ width:100%;
     object-fit:contain;
     width:60%;
     margin:auto;
-    border:solid 1px purple;
-}
+    border:solid 1px purple;}
 
 #pencil_img img{
     display:block;
@@ -335,8 +290,7 @@ width:100%;
     object-fit:contain;
     width:60%;
     margin:auto;
-    border:solid 1px purple;
-}
+    border:solid 1px purple;}
 
 #charcoal_img img{
     display:block;
@@ -345,8 +299,7 @@ width:100%;
     object-fit:contain;
     width:60%;
     margin:auto;
-    border:solid 1px purple;
-}
+    border:solid 1px purple;}
 
 #mixedmedia_img img{
     display:block;
@@ -355,8 +308,7 @@ width:100%;
     object-fit:contain;
     width:60%;
     margin:auto;
-    border:solid 1px purple;
-}
+    border:solid 1px purple;}
 
 #acrylic_bubble{
     background-color:pink;
@@ -367,8 +319,6 @@ width:100%;
     z-index: 2;
     display:none;}
     
-    
-
 #pencil_bubble{
     background-color:pink;
     width:96%;
@@ -377,8 +327,6 @@ width:100%;
     top:9%;
     z-index: 2;
     display:none;}
-
-
 
 #charcoal_bubble{
     background-color:pink;
@@ -389,7 +337,6 @@ width:100%;
     z-index: 2;
     display:none;}
 
-
 #mixedmedia_bubble{
     background-color:pink;
     width:96%;
@@ -399,8 +346,6 @@ width:100%;
     z-index: 2;
     display:none;}
 
-
-
 .outer-border-about-me{
     margin-top:10px;
     background-color:pink;
@@ -409,15 +354,11 @@ width:100%;
     padding-left:0px;
     padding-right:0px;}
 
-    .about-me{
+.about-me{
     width:100%;
     background-color:pink;
     margin-bottom:20px;
-    margin-top:40px;
-    
-    }
-
-
+    margin-top:40px;}
 
 .about-me-text{
     font-family:'Balsamiq Sans';
@@ -425,12 +366,7 @@ width:100%;
     padding:35px;
     padding-top:10px;
     text-align:center;
-    
     color:purple;}
-
-.uppercase{
-    text-transform:uppercase;}
-
 
 .about-me-heading{
        text-align:center;
@@ -438,21 +374,17 @@ width:100%;
     font-family:'Courgette';
     color:purple;
     font-size:35px;
-    text-shadow: 10px 10px 16px grey;
     margin-top:15px;}
-
-
 
 /*--------------------My Artwork Page----------------*/
 .tiles{
-    padding:10px;;
-}
+    padding:10px;}
+
 .tiles img{
     object-fit:fill;
     height:350px;
     width:100%;
-    border:solid 2px #fafafa;
-}
+    border:solid 2px #fafafa;}
 
 .bubble{
     background-color:purple;
@@ -468,10 +400,7 @@ width:100%;
     color:#fafafa;
     border:solid 1px #fafafa;
     padding:4px;
-    padding-top:10px;
-    
-
-}
+    padding-top:10px;}
 
 @media(max-width:576px){
     .tiles img{width:100%;
@@ -480,45 +409,36 @@ width:100%;
 
 .artwork-container{
     margin-top:240px;
-    margin-bottom:20px;
-}
+    margin-bottom:20px;}
+
 .artwork-heading{
     text-align:center;
     font-family:'Courgette';
-    color:purple;
-}
+    color:purple;}
 
 .artwork-display{
     border:solid 2px purple;
     margin:5px;
-    background-color:purple;
-    
-}
+    background-color:purple;}
 
 /*-----------------Shop------------------------*/
 #myshop{
-    margin-top:220px;
-}
+    margin-top:220px;}
 
 .myshop-header{
     padding-top:20px;
     text-align:center;
     font-family:'Courgette';
-    color:purple;
-    
-}
+    color:purple;}
 
 #loader{
-    height:50px;
-}
+    height:50px;}
 
 #loader img{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    height:30px;
-
-}
+    height:30px;}
 
 #listing{
     height:100%;
@@ -536,20 +456,17 @@ width:100%;
     display:inline-block;
     padding:15px;
     background-color:pink;
-    text-align:center;
-}
+    text-align:center;}
 
 .listings img{
-    border:2px solid purple;
-}
+    border:2px solid purple;}
 
 .results-title{
-    margin-top:10px;
-}
+    margin-top:10px;}
+
 .buy-button a{
-    font-family:'Alice';
-    color:#fafafa;
-}
+    font-family:'Balsamiq Sans';
+    color:#fafafa;}
 
 .buy-button{
     text-transform:uppercase;
@@ -557,15 +474,13 @@ width:100%;
     color:white;
     font-weight:700;
     border:pink;
-margin-top:10px;
-vertical-align:bottom;}
+    margin-top:10px;
+    vertical-align:bottom;}
 
 .buy-button:hover{
     background-color:pink;
     border:solid 2px purple;
-    color:purple;
-    
-}
+    color:purple;}
 
 
 /*--------------------Contact Page----------------*/
@@ -584,11 +499,11 @@ vertical-align:bottom;}
     margin-bottom:15px;
     font-family:'Courgette';
     color:purple;
-    font-size:35px;
-    }
+    font-size:35px;}
+
 .form-container{
-    margin-left:30px;
-}
+    margin-left:30px;}
+
 .center-form{
     padding-top:25px;
     margin:0 auto;
@@ -626,26 +541,21 @@ vertical-align:bottom;}
 .map{
     margin-left:20px;
     padding-top:20px;
-    padding-left:30px;
-}
+    padding-left:30px;}
 
 .address{
     margin-top:20px;
     text-align:center;
-    font-family:'Courgette';
-
-}
+    font-family:'Courgette';}
 
 .map h2{
     font-family:'Courgette';
     text-align:center;
     color:purple;
-    font-size:35px;
-}
+    font-size:35px;}
 
 #map{
-    border:solid 2px purple;
-}
+    border:solid 2px purple;}
 
 .phone-me{
     margin-top:20px;
@@ -655,23 +565,16 @@ vertical-align:bottom;}
     color:pink;
     background-color:purple;
     padding:10px;
-    margin-bottom:15px;
-    
-}
+    margin-bottom:15px;}
 
 .phone-me-inner{
     border:solid 3px pink;
-    padding:10px;
-}
+    padding:10px;}
 
 .phone-me i{
     color:pink;
     font-size:30px;
-    padding:10px;
-}
-
-
-
+    padding:10px;}
 
 
 /*--------------------Footer----------------*/
@@ -683,25 +586,21 @@ vertical-align:bottom;}
     padding-top:15px;
 
     text-align:center;
-    position: relative;
-    }
+    position: relative;}
 
 
 
 .footer-contact-me{
     font-family:'Calligraffitti';
-    font-size:25px;
-}
+    font-size:25px;}
 
 #footer-icons i:hover{color:purple;}
 
 #footer-icons2 i:hover{color:purple;}
 
 #footer-icons i{
-    color:#fafafa;
-}
+    color:#fafafa;}
 
 #footer-icons2 i{
     color:#fafafa;
-    padding:2px;
-}
+    padding:2px;}

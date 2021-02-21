@@ -33,8 +33,8 @@ I manually tested the following to make sure they worked as designed:
 
 <h5>Navbar</h5>
 <ul>
-<li>Viewing the Navbar from each of the three pages, it looks identical.</li>
-<li>There are three options: Home, Services, Contact.</li>
+<li>Viewing the Navbar from each of the four pages, it looks identical.</li>
+<li>There are four options: Home, My Artwork, My Shop, Contact Me.</li>
 <li>Clicking on the Home link will takes you to the index.html page.</li>
 <li>Clicking on the My Artwork link takes you to the myartwork.html page.</li>
 <li>Clicking on the My Shop link takes you to the myshop.html page.</li>
