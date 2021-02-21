@@ -1,7 +1,7 @@
 <h1>Down The Rabbit Hole</h1>
 <h4><a href="https://github.com/elliemcavoy/Down-The-Rabbit-Hole" target="_blank">GitHub Link</a></h4>
 <h4><a href="https://elliemcavoy.github.io/Down-The-Rabbit-Hole/" target="_blank">Deployed Project</a></h4>
-<img src="/assets/images/website.PNG">
+<img src="/assets/images/responsive.JPG">
 <p>This project is dedicated to my friend's fledgling art business. The website is to display and advertise her artistic achievements.</p> 
 
 <h2>Table of Contents</h2>
@@ -132,9 +132,9 @@ I have carried out a lot of manual testing on different aspects of this project.
 <h2 id="deployment"><u>Deployment</u></h2>
 <ol>
 <li>Created a GitHub account at <a href="https://github.com">https://github.com</a>. My GitHub account url is <a href="https://github.com/elliemcavoy">https://github.com/elliemcavoy</a>.</li>
-<li>I pushed my files and code using git into my repository Holgate-Engineering which is dedicated to this project.</li>
-<li>When publishing my project so it can be viewed on the web, I accessed the Settings on my repository. Under GitHub Pages I used the source settings to select the master branch and then save it as the published source. After refreshing the page I was given the url where my page was published. The url I was provided was <a href="https://elliemcavoy.github.io/Holgate-Engineering/">https://elliemcavoy.github.io/Holgate-Engineering/</a></li>
-<li>The run this code on your local machine you can go to my repository <a href="https://github.com/elliemcavoy/Holgate-Engineering/">https://github.com/elliemcavoy/Holgate-Engineering</a> and just above the files you will see a green button allowing you to "Clone or Download". </li>
+<li>I pushed my files and code using git into my repository Down-The-Rabbit-Hole which is dedicated to this project.</li>
+<li>When publishing my project so it can be viewed on the web, I accessed the Settings on my repository. Under GitHub Pages I used the source settings to select the master branch and then save it as the published source. After refreshing the page I was given the url where my page was published. The url I was provided was <a href="https://elliemcavoy.github.io/Down-The-Rabbit-Hole/">https://elliemcavoy.github.io/Down-The-Rabbit-Hole/</a></li>
+<li>The run this code on your local machine you can go to my repository <a href="https://github.com/elliemcavoy/Holgate-Engineering/">https://github.com/elliemcavoy/Down-The-Rabbit-Hole</a> and just above the files you will see a green button allowing you to "Clone or Download". </li>
 </ol>
 
 
