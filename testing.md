@@ -4,23 +4,28 @@
 <ol>
 <li>I would like to be able to browse and purchase items that are for sale by the artist.</li>
 <ul>
-<li>From the home page, there is a quick link to "My Shop" from where all of the current items for sale are displayed. By clicking on the "Buy Now" button, the items can be purchase via the Etsy website.</li>
+<li>From the home page, there is a quick link to "My Shop" from where all of the current items for sale are displayed. By clicking on the "Buy Now" button, the items can be purchase via the Etsy website.<br>
+<img src="assets/images/MyShop.JPG"</li>
 </ul>
 <li>I would like to be able to see a gallery of artwork created by the artist to see if the styles and designs are what I am looking for.</li>
 <ul>
-<li>When the homepage loads, it is easy to see where to access the gallery. By clicking on the "My Artwork" link, it takes the user directly to a gallery of many different types of art created by the artist. There are also examples of her work on the Homepage which are one of the first things that are seen when the page loads.</li>
+<li>When the homepage loads, it is easy to see where to access the gallery. By clicking on the "My Artwork" link, it takes the user directly to a gallery of many different types of art created by the artist. There are also examples of her work on the Homepage which are one of the first things that are seen when the page loads.<br>
+<img src="assets/images/artwork.JPG"></li>
 </ul>
 <li>As a local customer, I would like to be able to easily find the address and location of the artists studio so I can view the artwork in person. </li>
 <ul>
-<li>From the homepage, it is a simple navigation to the "Contact Me" page where the address is provided. The location of the studio is also visually represented on Google Maps.</li>
+<li>From the homepage, it is a simple navigation to the "Contact Me" page where the address is provided. The location of the studio is also visually represented on Google Maps.<br>
+<img src="assets/images/map.JPG"</li>
 </ul> 
 <li>I would like to be able to contact the artist for personalised artwork and for a quote.</li>
 <ul>
-<li>It is easy to see where, as a user, you would find these details. Clicking on the "Contact Me" link takes you straight to the page where the contact form can be completed. The contact form asks for details of the artwork required by the user. There is also the option to call the artist which is displayed boldly on the same page. Also, the footer of each page displays a link to the contact form.</li>
+<li>It is easy to see where, as a user, you would find these details. Clicking on the "Contact Me" link takes you straight to the page where the contact form can be completed. The contact form asks for details of the artwork required by the user. There is also the option to call the artist which is displayed boldly on the same page. Also, the footer of each page displays a link to the contact form.<br>
+<img src="assets/images/form.JPG"></li>
 </ul>
 <li>I would like to be able to follow the artist on social media so I can keep up to date with new artwork that is available.</li>
 <ul>
-<li>An easy link in the footer of each page will direct you to the artist's Instagram page and allows you to follow them.</li>
+<li>An easy link in the footer of each page will direct you to the artist's Instagram page and allows you to follow them.<br>
+<img src="assets/images/footer.JPG"></li>
 </ul>
 <li>I would like to be able to navigate between the webpages without having to return to the homepage.</li>
 <ul>
@@ -86,27 +91,33 @@ I manually tested the following to make sure they worked as designed:
 <ul>
 <li>On a mobile device</li>
 <ul>
-<li>The header is condensed but all the page links are still visible. As the header is fixed to the top, the links can be accessed no matter how far down the page your are</li>
-<li>The hero image is visible and the sections are placed under each other and take up the full width of the screen</li>
-<li>The footer allows the contact details to be stacked on top of each other and still easily accessed</li>
-<li>The services boxes are stacked on top of each other and are full width</li>
-<li>The contact form appears in the middle of the page</li>
+<li>The navbar links have been condensed into a toggle container to take up less space on the page. The header height has also been reduced to allow more of the page to be seen.</li>
+<li>On the Home page, two images are visible underneath the header to ensure the pictures are not cropped and fill the width.</li>
+<li>The About Me and Media sections are now stacked on top of each other to enable the viewer to read the information easily.</li>
+<li>On the Artwork page, the images are displayed one to a row to allow the user to see each picture clearly.</li>
+<li>On the Shop page, the listing items are also displayed on to a row so that the descriptions and images can be clearly seen.</li>
+<li>On the Contact page, the form is now displayed above the map and contact details so that the user can read all the information and see the map clearly.</li>
+<li>The two sections in the footer have been placed on top of each other for viewing ease.</li>
 </ul>
 <li>On a tablet</li>
 <ul>
-<li>The header is condensed but all the page links are still visible to the right hand side. As the header is fixed to the top, the links can be accessed no matter how far down the page your are</li>
-<li>The hero image is visible and the sections are placed next to each other</li>
-<li>The footer items are still visible next to each other</li>
-<li>The services boxes are in a grid system with two boxes per row</li>
-<li>The contact form is still visible in the center of the page</li>
+<li>The navbar links are now displayed horizontally underneath the website name and are easily visible from every page.</li>
+<li>Three images are now placed side by side to fill the width of the homepage.</li>
+<li>The About Me and Media sections are still stacked on top of each other as they include a lot of text which is easier to read when the width of the div is increased.</li>
+<li>The Artwork page now shows a width of three images which makes it easier to view all of the gallery images at the same time. </li>
+<li>The Shop page, now shows two of the listing items to a row to ensure the width of the screen is filled.</li>
+<li>The Contact page now shows the form and map side by side.</li>
+<li>The footer sections are now placed next to each other to ensure the full width of the footer is filld with content.</li>
 </ul>
 <li>On a desktop</li>
 <ul>
-<li>The header items are linear and span the width. Also the icons are visible at each end of the header. As the header is fixed to the top, the links can be accessed no matter how far down the page your are</li>
-<li>The hero image is visible and the sections are placed next to each other</li>
-<li>The footer items are visible next to each other</li>
-<li>The services boxes are in a grid system with two boxes per row but wider than a tablet</li>
-<li>The contact form is visible in the center of the page and the email and phone number are shown at each side</li>
+<li>The navigation links are visible horizontally spaced underneath the page heading. </li>
+<li>Four images of equal size are now displayed underneath the header on the homepage. These create a full width banner to attract attention.</li></li>
+<li>The About Me and Media sections are placed next to each other to make use of the width of the screen.</li>
+<li>On the Artwork page, the images are now four to a row to fill the width of the page and provide a gallery style effect.</li>
+<li>On the Shop page, the listings are still two to a row as when three were placed next to each other, the descriptions were difficult to read.</li>
+<li>The Contact page shows the form and map in the same row to fill the width of the page.</li>
+<li>The footer details are spaced out evenly over the width of the footer.</li>
 </ul>
 </ul>
 
