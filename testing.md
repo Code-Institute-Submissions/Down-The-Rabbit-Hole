@@ -33,6 +33,10 @@
 </ul>
 </ol>
 
+<h3>Lighthouse</h3>
+I have used Lighthouse to gain a performance score for this site. Please see below the results.<br>
+<img src="assets/images/Lighthouse.JPG">
+
 <h3>Manual Testing of key aspects of the website</h3>
 I manually tested the following to make sure they worked as designed:
 
@@ -150,3 +154,7 @@ Here are details of bugs that were discovered during manual testing and how they
 <li>By moving this inside the function and only when "success" was logged in the console, the form was reset once the form was successfully submitted.</li>
 </ul>
 </ul>
+
+<h3>Bugs still to be rectified</h3>
+<ul>
+<li>Still to be rectified or updated slightly is the JavaScript code for the bubbles.js as for mobile devices, the divs need to be clicked on for the text to change. Also as hover has been used, the contect does not then revert back to the original content on mobile devices as no mouse is present. A workaround this could be to add a button for mobile devices that would be labelled "Find out more" instead of the JavaScript.</li>

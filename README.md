@@ -92,10 +92,9 @@ This project has been tailored towards the artistic target audience, with the ai
 <li>Image Banner (Homepage) - Allows website viewers to see examples of the artists work as soon as they visit the website.</li>
 <li>Artwork Gallery - This is a feature dedicated to showcasing the artists work.</li>
 <li>Shop - Using the Etsy API this feature allows users to browse and purchase items through a trusted site.</li>
-
-<li>Footer - Allows users to quickly locate important information such as contact details and risk assessments no matter which page they are viewing.</li>
-<li>Services Modals - Allows customers to gain an idea of prices for each service on offer without having to contact the company. By clicking on the 'Prices' button, a modal in shown on the same page to avoid customers have to navigate back to the section they were currently viewing.</li>
-<li>Contact Form - Allows customers to send a quick message to Holgate Engineering without having to open their own emails. It will also not allow customers to miss any important information by using 'required' fields.</li>
+<li>Footer - Allows users to quickly locate important information such as contact details and social media links.</li>
+<li>Google Map - Allows users to visually locate the artists studio.</li>
+<li>Contact Form - Allows users to quickly make contact with the artist without having to open their own emails. It also ensures all the relevant details are provided for the artist to be able to quote effectiveley.</li>
 </ol>
 
 <h4 id="new-features">Features Left to Implement</h4>
@@ -114,6 +113,9 @@ This project has been tailored towards the artistic target audience, with the ai
 <li><a href="https://getbootstrap.com/">Bootstrap</a> - Used to provide structure for pages and Navbar design. </li>
 <li><a href="https://fontawesome.com/">Font Awesome</a>  - Used to add styling to the page and as links to exterior sources.</li>
 <li><a href="https://fonts.google.com/">Google Fonts</a> - Used to create a look in keeping with the website aim and to create uniform styling throughout.</li>
+<li>Google Maps API</li>
+<li>EmailJS</li>
+<li><a href="https://www.etsy.com/developers/documentation/getting_started/api_basics">Etsy API</a></li>
 </ul>
 
 <h2 id="testing"><u>Testing</u></h2>
@@ -132,9 +134,10 @@ I have carried out a lot of manual testing on different aspects of this project.
 <h2 id="deployment"><u>Deployment</u></h2>
 <ol>
 <li>Created a GitHub account at <a href="https://github.com">https://github.com</a>. My GitHub account url is <a href="https://github.com/elliemcavoy">https://github.com/elliemcavoy</a>.</li>
+<li>From Github, my code was written in Gitpod and was commited to my repository at significant intervals during the project.</li>
 <li>I pushed my files and code using git into my repository Down-The-Rabbit-Hole which is dedicated to this project.</li>
 <li>When publishing my project so it can be viewed on the web, I accessed the Settings on my repository. Under GitHub Pages I used the source settings to select the master branch and then save it as the published source. After refreshing the page I was given the url where my page was published. The url I was provided was <a href="https://elliemcavoy.github.io/Down-The-Rabbit-Hole/">https://elliemcavoy.github.io/Down-The-Rabbit-Hole/</a></li>
-<li>The run this code on your local machine you can go to my repository <a href="https://github.com/elliemcavoy/Holgate-Engineering/">https://github.com/elliemcavoy/Down-The-Rabbit-Hole</a> and just above the files you will see a green button allowing you to "Clone or Download". </li>
+<li>The run this code on your local machine you can go to my repository <a href="https://github.com/elliemcavoy/Down-The-Rabbit-Hole/">https://github.com/elliemcavoy/Down-The-Rabbit-Hole</a> and just above the files you will see a green button allowing you to "Clone or Download". </li>
 </ol>
 
 
